@@ -1,0 +1,254 @@
+
+body{
+width: 100vw;
+    margin:0px;
+}
+#tittle{
+
+  text-align: left;  
+  width: 50%vw;
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#barr{
+   width: 100vw;
+   height: 100px; 
+   background-color: rgb(255, 255, 255);
+   margin-bottom: 20px;
+   text-align: right;
+   border: 1px solid #e7e7e7;
+   background-color: #f3f3f3;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tt{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#barr li{
+    margin: 50%vw;
+    display: inline-block;
+    text-align: right;
+    border-right: 1px solid #bbb;
+}
+#barr a{
+text-align: right;
+    display: block;
+    width:100px ;
+}
+#div2{
+    margin: 0px;
+    width: 100vw;
+    height: 800px;
+
+    background-image: url(../PROJET/images/architect.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div2 li{
+    display: inline-block;
+}
+#title2{
+background-color: black;
+color: rgb(253, 253, 253);
+}
+h2{
+    margin: 0px;
+}
+#phot1{
+    background-image: url(../PROJET/images/house1.jpg);
+    width: 300px;
+    height:300px;
+    display:inline-block;
+    margin: 10px;
+}
+.name{
+    color:rgb(255, 255, 255);
+    background-color:black;
+    width:10vw;
+
+
+}
+#phot2  {
+    background-image: url(../PROJET/images/house2.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+}
+#phot3  {
+    background-image: url(../PROJET/images/house3.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+#phot4  {
+    background-image: url(../PROJET/images/house4.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+#div3{
+width: 1500px;
+height:350px;
+}
+#phot5  {
+    background-image: url(../PROJET/images/house5.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+#phot6  {
+    background-image: url(../PROJET/images/house6.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+#phot7 {
+    background-image: url(../PROJET/images/house7.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+#phot8 {
+    background-image: url(../PROJET/images/house8.jpg);
+    width: 300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#pers1{ 
+    width: 300px;
+    height:500px;
+    display: inline-block;
+    margin: 10px;
+}
+.ceo{
+color: rgb(128, 120, 120);
+
+
+}
+#pers2{ 
+    width: 300px;
+    height:500px;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#div6{
+    width: 100vw;
+    height:500px;
+}
+
+#pers3 { 
+    width: 300px;
+    height:500px;
+    display: inline-block;
+    margin: 10px;
+}
+#pers4 { 
+    width: 300px;
+    height:500px;
+    display: inline-block;
+    margin: 10px;
+}
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 100vw;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    height: 400px;
+    background-color: blue;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 100vw;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+  
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+
+  #img1{
+ width: 90vw;
+ height:600px; 
+ display: bloCK; 
+ background-image: url(../PROJET/images/map.jpg);
+
+  }
+  #powered{
+      background-color: black;
+      color: cornsilk;
+      width:80%;
+      height:100px;
+
+
+  }
+
+  #BR{
+
+width:50%;
+text-align: left;
+display: inline-block;
+  }
+
+  #conta{
+      width: 40%;
+      display: inline-block;
+
+margin-bottom: 50px;
+
+  }
+
+
+
